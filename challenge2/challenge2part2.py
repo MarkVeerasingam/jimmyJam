@@ -19,14 +19,14 @@ def get_prices_input(message):
 
 def problem2_4(message):
     prices = get_prices_input(message)
-    mostExpensivePrice = 0
+    mostExpensivePrice = max(prices)
 
     return str(mostExpensivePrice)
 
 
 def problem2_5(message):
     prices = get_prices_input(message)
-    totalCost = 0
+    totalCost = sum(prices)
 
 
     return str(totalCost)
@@ -34,7 +34,19 @@ def problem2_5(message):
 
 def problem2_6(message):
     prices = get_prices_input(message)
-    totalCost = 0
+    prices = sum(prices)*11.03
+    totalCost = round(prices)
 
 
     return str(totalCost)
+
+print("Challenge 2 part 2.4: 4")
+print("Challenge 2 part 2.5: 5")
+print("Challenge 2 part 2.6")
+input1 = input()
+
+if(input == )
+print(problem2_4(prices))
+print(problem2_5(prices))
+print(problem2_6(prices))
+
